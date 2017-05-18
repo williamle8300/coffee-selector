@@ -1,3 +1,4 @@
+import AudioTone from '../public/tone.mp3'
 import IconCoffee from '../public/icons/coffee.svg'
 import IconDoppio from '../public/icons/doppio.svg'
 import IconCafeAuLait from '../public/icons/cafe-au-lait.svg'
@@ -21,19 +22,19 @@ module.exports = createReactClass({
     {
       name: 'Coffee',
       icon: IconCoffee,
-      description: 'Our Signature® cryo-brew. These Arabica beans were sourced from an estate in Sulawesi, Indonesia',
+      description: 'Our Signature CryoBrew®. Medium acidity with deep chocolate and orange notes',
       price: '$3.99',
     },
     {
       name: 'Doppio',
       icon: IconDoppio,
-      description: 'Straight-forward and simple. Two shots of Italian espresso with XTRA velvety créma',
+      description: 'No B.S. Two shots of Italian espresso. Clean and mind-numbing créma.',
       price: '$4.50',
     },
     {
       name: 'Café au Lait',
       icon: IconCafeAuLait,
-      description: 'Our Signature® coffee combined 50–50 with Neuchâtel whole milk',
+      description: 'Our Signature CryoBrew® 50–50 with Neuchâtel whole milk',
       price: '$4.99',
     },
     {
@@ -45,32 +46,32 @@ module.exports = createReactClass({
     {
       name: 'Cappuccino',
       icon: IconCappuccino,
-      description: 'One shot of Italian espresso with Neuchâtel whole milk (extra froth)',
+      description: 'One shot of Italian espresso with steamed Neuchâtel whole milk (extra froth)',
       price: '$5.50',
     },
     {
       name: 'Red Eye',
       icon: IconRedEye,
-      description: 'One shot of Italian espresso poured together with our Signature® coffee',
+      description: 'One shot of Italian espresso poured with our Signature CryoBrew®',
       price: '$4.50',
     },
     {
       name: 'Americano',
       icon: IconAmericano,
-      description: 'One shot of Italian espresso cut with Newfoundland spring water',
+      description: 'One shot of Italian espresso blended with 1 cup of re-thermolyzed Newfoundland spring water',
       price: '$3.50',
     },
   ],
   render: function () {
     return (
       <div style={this.styleB(this.props, this.state)}>
-        <audio id="tone-sound" preload="auto"><source src="tone.mp3" type="audio/mpeg"/></audio>
+        <audio id="tone-sound" preload="auto"><source src={AudioTone} type="audio/mpeg"/></audio>
         <ul style={this.styleC()}>
           {this._items.map((item, i) => {
             return (
               <li key={i} style={this.styleA(this.props, this.state, i)} onClick={this.handleSelect.bind(this, i)}>
-                <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', width: '10%'}}>
-                  <img src={item.icon} alt="icon" style={{width: '65%', opacity: 0.75}}/>
+                <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', paddingLeft: '5%', width: '5%'}}>
+                  <img src={item.icon} alt="icon" style={this.styleH(this.props, this.state, i)}/>
                 </div>
                 <div style={this.styleF()}>
                   <div style={this.styleD(this.props, this.state, i)}>{item.name}</div>
@@ -105,13 +106,14 @@ module.exports = createReactClass({
       position: 'relative',
       zIndex: isSelected ? '1' : '0',
       display: 'flex',
-      marginLeft: isSelected ? '-0.5%' : '0',
-      padding: isSelected ? '2.25rem 2rem' : '2rem',
-      width: isSelected ? '101%' : '100%',
+      marginLeft: isSelected ? '-2%' : '0',
+      padding: isSelected ? '2.25vw 2vw' : '2vw',
+      width: isSelected ? '104%' : '100%',
       fontFamily: 'Lato, sans-serif',
       backgroundColor: isSelected ? '#6a402c' : 'rgba(255, 255, 255, 0.25)',
-      borderBottom: isSelected ? 'none' : '1px solid rgba(255, 255, 255, 0.225)',
-      boxShadow: `inset 0 0 5rem ${(this._items.length - i)/this._items.length}rem ${isSelected ? '#98664f' : 'rgba(255, 255, 255, 0.2)'}, ${isSelected ? '0 0 13rem 0 #9c7c6d' : '0 0 0 0 transparent'}`,
+      borderBottom: isSelected ? '1px solid #98664f' : '1px solid rgba(255, 255, 255, 0.115)',
+      boxShadow: `inset 0 0 5rem ${(this._items.length - i)/this._items.length}rem ${isSelected ? '#98664f' : 'rgba(255, 255, 255, 0.1)'}, ${isSelected ? '0 0 13rem 0 #9c7c6d' : '0 0 0 0 transparent'}`,
+      borderRadius: isSelected ? 4 : 0,
       overflow: 'hidden',
       cursor: 'pointer',
       transition: 'all 0.65s',
@@ -144,12 +146,12 @@ module.exports = createReactClass({
 
     return {
       fontFamily: '"Lato", sans-serif',
-      fontSize: '1.75rem',
+      fontSize: '1.85vw',
       color: isSelected ? '#e0a88d' : '#D6D6D6',
       textTransform: 'uppercase',
-      letterSpacing: '0.875rem',
+      letterSpacing: '0.45vw',
       fontWeight: 900,
-      textShadow: isSelected ? 'none' : '0 0 3rem rgba(255, 255, 255, 0.75)',
+      // textShadow: isSelected ? 'none' : '0 0 3rem rgba(255, 255, 255, 0.75)',
       transition: 'all 0.35s',
     }
   },
@@ -159,13 +161,15 @@ module.exports = createReactClass({
 
 
     return {
+      display: isSelected ? 'block' : 'none',
       marginTop: '0.25rem',
-      fontSize: isSelected ? '1rem' : 0,
+      fontSize: '1.25vw',
+      lineHeight: isSelected ? '1.5vw' : 0,
       fontFamily: 'Helvetica',
       fontWeight: 'normal',
-      color: isSelected ? '#e0a88d' : '#D6D6D6',
+      color: isSelected ? '#b38169' : '#D6D6D6',
       textShadow: isSelected ? 'none' : '0 0 3rem rgba(255, 255, 255, 0.75)',
-      opacity: isSelected ? 1 : 0,
+      // opacity: isSelected ? 1 : 0,
       transition: 'all 0.35s',
     }
   },
@@ -174,8 +178,8 @@ module.exports = createReactClass({
       display : 'flex',
       justifyContent : 'center',
       flexDirection : 'column',
-      paddingLeft: '4%',
-      width : '76%',
+      paddingLeft: '10%',
+      width : '50%',
     }
   },
   styleG: function (props, state, i) {
@@ -186,12 +190,19 @@ module.exports = createReactClass({
     return {
       display : 'flex',
       alignItems : 'center',
-      justifyContent : 'center',
-      width : '10%',
-      fontSize : '1.5rem',
-      fontWeight : 'bold',
+      justifyContent : 'flex-end',
+      width : '30%',
+      fontSize : '1.75vw',
+      fontFamily: '"Inconsolata", sans-serif',
+      // fontWeight : 'bold',
       color : isSelected ? '#e0a88d' : '#D6D6D6',
       transition: 'all 0.35s',
+    }
+  },
+  styleH: function (props, state, i) {
+    return {
+      width: '5vw',
+      opacity: 0.5,
     }
   }
 })
