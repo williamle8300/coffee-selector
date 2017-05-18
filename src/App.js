@@ -21,37 +21,44 @@ module.exports = createReactClass({
     {
       name: 'Coffee',
       icon: IconCoffee,
-      description: 'Our Signature® cryo-brewed coffee. These Arabica beans are single-origin from Sulawesi, Indonesia',
+      description: 'Our Signature® cryo-brew. These Arabica beans were sourced from an estate in Sulawesi, Indonesia',
+      price: '$3.99',
     },
     {
       name: 'Doppio',
       icon: IconDoppio,
-      description: 'Two shots of espresso. Beans were sourced directly from an estate in Tuscany, Italy',
+      description: 'Straight-forward and simple. Two shots of Italian espresso with XTRA velvety créma',
+      price: '$4.50',
     },
     {
       name: 'Café au Lait',
       icon: IconCafeAuLait,
-      description: 'Our Signature® coffee is combined 50–50 with Neuchâtel whole milk',
+      description: 'Our Signature® coffee combined 50–50 with Neuchâtel whole milk',
+      price: '$4.99',
     },
     {
       name: 'Latté',
       icon: IconLatte,
-      description: 'One shot of Tuscan espresso with a helping of steamed whole milk',
+      description: 'One shot of Italian espresso topped with steamed Neuchâtel whole milk',
+      price: '$5.50',
     },
     {
       name: 'Cappuccino',
       icon: IconCappuccino,
-      description: 'One shot of Tuscan espresso with steamed whole from Neuchâtel (extra froth)',
+      description: 'One shot of Italian espresso with Neuchâtel whole milk (extra froth)',
+      price: '$5.50',
     },
     {
       name: 'Red Eye',
       icon: IconRedEye,
-      description: 'One shot of Tuscan espresso poured together with our Signature® coffee',
+      description: 'One shot of Italian espresso poured together with our Signature® coffee',
+      price: '$4.50',
     },
     {
       name: 'Americano',
       icon: IconAmericano,
-      description: 'One shot of Tuscan espresso blended with 100% spring water from New Zealand',
+      description: 'One shot of Italian espresso cut with Newfoundland spring water',
+      price: '$3.50',
     },
   ],
   render: function () {
@@ -63,11 +70,14 @@ module.exports = createReactClass({
             return (
               <li key={i} style={this.styleA(this.props, this.state, i)} onClick={this.handleSelect.bind(this, i)}>
                 <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', width: '10%'}}>
-                  <img src={item.icon} alt="icon" style={{width: '70%', opacity: 0.65}}/>
+                  <img src={item.icon} alt="icon" style={{width: '65%', opacity: 0.75}}/>
                 </div>
                 <div style={this.styleF()}>
-                  <div style={this.styleD()}>{item.name}</div>
+                  <div style={this.styleD(this.props, this.state, i)}>{item.name}</div>
                   <div style={this.styleE(this.props, this.state, i)}>{item.description}</div>
+                </div>
+                <div style={this.styleG(this.props, this.state, i)}>
+                  {item.price}
                 </div>
               </li>
             )
@@ -96,14 +106,12 @@ module.exports = createReactClass({
       zIndex: isSelected ? '1' : '0',
       display: 'flex',
       marginLeft: isSelected ? '-0.5%' : '0',
-      padding: isSelected ? '2rem 2rem' : '1.75rem 2rem',
+      padding: isSelected ? '2.25rem 2rem' : '2rem',
       width: isSelected ? '101%' : '100%',
       fontFamily: 'Lato, sans-serif',
-      color: isSelected ? '#e0a88d' : '#D6D6D6',
-      textShadow: isSelected ? 'none' : '0 0 3rem #FFFFFF',
       backgroundColor: isSelected ? '#6a402c' : 'rgba(255, 255, 255, 0.25)',
       borderBottom: isSelected ? 'none' : '1px solid rgba(255, 255, 255, 0.225)',
-      boxShadow: `inset 0 0 8rem ${(this._items.length - i)/this._items.length}rem ${isSelected ? '#c7734e' : 'rgba(255, 255, 255, 0.3)'}, ${isSelected ? '0 0 13rem 0 #d29e86' : '0 0 0 0 transparent'}`,
+      boxShadow: `inset 0 0 5rem ${(this._items.length - i)/this._items.length}rem ${isSelected ? '#98664f' : 'rgba(255, 255, 255, 0.2)'}, ${isSelected ? '0 0 13rem 0 #9c7c6d' : '0 0 0 0 transparent'}`,
       overflow: 'hidden',
       cursor: 'pointer',
       transition: 'all 0.65s',
@@ -112,8 +120,9 @@ module.exports = createReactClass({
   styleB: function (props, state) {
     return {
       display: 'flex',
-      alignItems: 'center',
+      // alignItems: 'center',
       justifyContent: 'center',
+      padding: '3rem 0',
       height: '100%',
       backgroundColor: '#322119',
       transition: 'all 2s',
@@ -128,28 +137,36 @@ module.exports = createReactClass({
       listStyle: 'none',
     }
   },
-  styleD: function () {
+  styleD: function (props, state, i) {
+
+    const isSelected = state.selected === i
+
+
     return {
-      // margin: '0 0 0.65rem',
       fontFamily: '"Lato", sans-serif',
       fontSize: '1.75rem',
+      color: isSelected ? '#e0a88d' : '#D6D6D6',
       textTransform: 'uppercase',
       letterSpacing: '0.875rem',
-      fontWeight: 900
+      fontWeight: 900,
+      textShadow: isSelected ? 'none' : '0 0 3rem rgba(255, 255, 255, 0.75)',
+      transition: 'all 0.35s',
     }
   },
   styleE: function (props, state, i) {
 
     const isSelected = state.selected === i
 
+
     return {
-      display: isSelected ? 'block' : 'none',
       marginTop: '0.25rem',
+      fontSize: isSelected ? '1rem' : 0,
       fontFamily: 'Helvetica',
       fontWeight: 'normal',
-      color: isSelected ? '#e0a88d' : 'transparent',
+      color: isSelected ? '#e0a88d' : '#D6D6D6',
+      textShadow: isSelected ? 'none' : '0 0 3rem rgba(255, 255, 255, 0.75)',
       opacity: isSelected ? 1 : 0,
-      transition: 'all 0.65s',
+      transition: 'all 0.35s',
     }
   },
   styleF: function () {
@@ -157,8 +174,24 @@ module.exports = createReactClass({
       display : 'flex',
       justifyContent : 'center',
       flexDirection : 'column',
-      paddingLeft: '3%',
-      width : '77%',
+      paddingLeft: '4%',
+      width : '76%',
+    }
+  },
+  styleG: function (props, state, i) {
+
+    const isSelected = state.selected === i
+
+
+    return {
+      display : 'flex',
+      alignItems : 'center',
+      justifyContent : 'center',
+      width : '10%',
+      fontSize : '1.5rem',
+      fontWeight : 'bold',
+      color : isSelected ? '#e0a88d' : '#D6D6D6',
+      transition: 'all 0.35s',
     }
   }
 })
