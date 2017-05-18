@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="177px" height="185px" viewBox="0 0 177 185" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44 (41411) - http://www.bohemiancoding.com/sketch -->
+    <title>Red Eye</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Red-Eye" transform="translate(5.000000, 4.000000)">
+            <g id="Cup" stroke-linecap="square" stroke="#FFFFFF">
+                <g>
+                    <path d="M31.5,175.5 L136,175.5" id="Line-Copy-3" stroke-width="10"></path>
+                    <path d="M0.5,1.5 L167,1.5" id="Line-Copy-4" stroke-width="10"></path>
+                    <path d="M1,10 L30.0221508,174.458854" id="Line-Copy-2" stroke-width="10"></path>
+                    <path d="M137,10 L166.022151,174.458854" id="Line-Copy-5" stroke-width="10" transform="translate(151.511075, 92.229427) scale(-1, 1) translate(-151.511075, -92.229427) "></path>
+                </g>
+            </g>
+            <g id="EspressoShot-Copy-2" opacity="0.900000036" transform="translate(21.000000, 135.000000)">
+                <path d="M5.5,5 L119.5,5" id="Line" stroke="#FFFFFF" stroke-width="10" stroke-linecap="square"></path>
+                <g id="Group-3" transform="translate(21.000000, 10.000000)" stroke="#FFFFFF" stroke-linecap="square">
+                    <path d="M4,27.4286727 L31.4286727,0" id="Line-Copy-6" stroke-width="10"></path>
+                    <path d="M0,27.4286727 L27.4286727,0" id="Line-Copy-7" stroke-width="11"></path>
+                </g>
+                <g id="Group-4" transform="translate(12.000000, 8.000000)" stroke="#FFFFFF" stroke-linecap="square">
+                    <path d="M1,18.4286727 L18.5291778,0.899494937" id="Line-Copy-6" stroke-width="10"></path>
+                    <path d="M0,15.4286727 L13.9936438,1.43502884" id="Line-Copy-7" stroke-width="11"></path>
+                </g>
+                <g id="Group-3-Copy" transform="translate(44.000000, 10.000000)" stroke="#FFFFFF" stroke-linecap="square">
+                    <path d="M4,27.4286727 L31.4286727,0" id="Line-Copy-6" stroke-width="10"></path>
+                    <path d="M0,27.4286727 L27.4286727,0" id="Line-Copy-7" stroke-width="11"></path>
+                </g>
+                <g id="Group-3-Copy-2" transform="translate(67.000000, 10.000000)" stroke="#FFFFFF" stroke-linecap="square">
+                    <path d="M4,27.4286727 L31.4286727,0" id="Line-Copy-6" stroke-width="10"></path>
+                    <path d="M0,27.4286727 L27.4286727,0" id="Line-Copy-7" stroke-width="11"></path>
+                </g>
+                <g id="Group-3-Copy-3" transform="translate(90.000000, 10.000000)" stroke="#FFFFFF" stroke-linecap="square">
+                    <path d="M4,27.4286727 L27.8931388,3.53553391" id="Line-Copy-6" stroke-width="10"></path>
+                    <path d="M0,27.4286727 L27.4286727,0" id="Line-Copy-7" stroke-width="11"></path>
+                </g>
+                <path d="M113,35.4286727 L114.727683,33.7009895" id="Line-Copy-8" stroke="#FFFFFF" stroke-width="8" stroke-linecap="square"></path>
+                <polygon id="Triangle" fill="#FFFFFF" transform="translate(8.502205, 9.713770) rotate(-46.000000) translate(-8.502205, -9.713770) " points="8.50220511 5.75594269 15.3184626 13.6715965 1.68594762 13.6715965"></polygon>
+            </g>
+            <polygon id="Rectangle-5" fill="#FFFFFF" opacity="0.900000036" points="7 34.447227 160 34.447227 142.417203 131.722855 24.7951691 131.722855"></polygon>
+        </g>
+    </g>
+</svg>
