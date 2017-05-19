@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="177px" height="185px" viewBox="0 0 177 185" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44 (41411) - http://www.bohemiancoding.com/sketch -->
+    <title>doppio</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="doppio" transform="translate(5.000000, 4.000000)">
+            <g id="Cup" stroke-linecap="square" stroke="#FFFFFF">
+                <g>
+                    <path d="M31.5,175.5 L136,175.5" id="Line-Copy-3" stroke-width="10"></path>
+                    <path d="M0.5,1.5 L167,1.5" id="Line-Copy-4" stroke-width="10"></path>
+                    <path d="M1,10 L30.0221508,174.458854" id="Line-Copy-2" stroke-width="10"></path>
+                    <path d="M137,10 L166.022151,174.458854" id="Line-Copy-5" stroke-width="10" transform="translate(151.511075, 92.229427) scale(-1, 1) translate(-151.511075, -92.229427) "></path>
+                </g>
+            </g>
+            <g id="Group-10" opacity="0.5" transform="translate(20.000000, 101.000000)">
+                <g id="Group-7" transform="translate(0.000000, 34.000000)">
+                    <path d="M5.5,5 L119.5,5" id="Line" stroke="#FFFFFF" stroke-width="10" stroke-linecap="square"></path>
+                    <g id="Group-3" transform="translate(21.000000, 10.000000)" stroke="#FFFFFF" stroke-linecap="square">
+                        <path d="M4,27.4286727 L31.4286727,0" id="Line-Copy-6" stroke-width="10"></path>
+                        <path d="M0,27.4286727 L27.4286727,0" id="Line-Copy-7" stroke-width="11"></path>
+                    </g>
+                    <g id="Group-4" transform="translate(12.000000, 8.000000)" stroke="#FFFFFF" stroke-linecap="square">
+                        <path d="M1,18.4286727 L18.5291778,0.899494937" id="Line-Copy-6" stroke-width="10"></path>
+                        <path d="M0,15.4286727 L13.9936438,1.43502884" id="Line-Copy-7" stroke-width="11"></path>
+                    </g>
+                    <g id="Group-3-Copy" transform="translate(44.000000, 10.000000)" stroke="#FFFFFF" stroke-linecap="square">
+                        <path d="M4,27.4286727 L31.4286727,0" id="Line-Copy-6" stroke-width="10"></path>
+                        <path d="M0,27.4286727 L27.4286727,0" id="Line-Copy-7" stroke-width="11"></path>
+                    </g>
+                    <g id="Group-3-Copy-2" transform="translate(67.000000, 10.000000)" stroke="#FFFFFF" stroke-linecap="square">
+                        <path d="M4,27.4286727 L31.4286727,0" id="Line-Copy-6" stroke-width="10"></path>
+                        <path d="M0,27.4286727 L27.4286727,0" id="Line-Copy-7" stroke-width="11"></path>
+                    </g>
+                    <g id="Group-3-Copy-3" transform="translate(90.000000, 10.000000)" stroke="#FFFFFF" stroke-linecap="square">
+                        <path d="M4,27.4286727 L27.8931388,3.53553391" id="Line-Copy-6" stroke-width="10"></path>
+                        <path d="M0,27.4286727 L27.4286727,0" id="Line-Copy-7" stroke-width="11"></path>
+                    </g>
+                    <path d="M113,35.4286727 L114.727683,33.7009895" id="Line-Copy-8" stroke="#FFFFFF" stroke-width="8" stroke-linecap="square"></path>
+                    <polygon id="Triangle" fill="#FFFFFF" transform="translate(8.502205, 9.713770) rotate(-46.000000) translate(-8.502205, -9.713770) " points="8.50220511 5.75594269 15.3184626 13.6715965 1.68594762 13.6715965"></polygon>
+                </g>
+                <g id="Group-9" transform="translate(1.000000, 0.000000)">
+                    <path d="M3,1 L128.5,1" id="Line-Copy" stroke="#FFFFFF" stroke-width="10" stroke-linecap="square"></path>
+                    <g id="Group-3" transform="translate(93.500000, 21.500000) scale(-1, -1) translate(-93.500000, -21.500000) translate(73.000000, 3.000000)" stroke="#FFFFFF" stroke-linecap="square">
+                        <path d="M4.19398255,36.2346901 L40.4286727,0" id="Line-Copy-6" stroke-width="10"></path>
+                        <path d="M0.713693191,35.7149795 L36.4286727,0" id="Line-Copy-7" stroke-width="11"></path>
+                    </g>
+                    <g id="Group-4" transform="translate(110.000000, 26.500000) scale(-1, -1) translate(-110.000000, -26.500000) translate(95.000000, 11.000000)" stroke="#FFFFFF" stroke-linecap="square">
+                        <path d="M0.203809995,30.2248627 L29.5291778,0.899494937" id="Line-Copy-6" stroke-width="10"></path>
+                        <path d="M4.21237286,22.2162998 L24.9936438,1.43502884" id="Line-Copy-7" stroke-width="11"></path>
+                    </g>
+                    <g id="Group-3-Copy" transform="translate(70.500000, 21.500000) scale(-1, -1) translate(-70.500000, -21.500000) translate(50.000000, 3.000000)" stroke="#FFFFFF" stroke-linecap="square">
+                        <path d="M6.71312614,33.7155465 L40.4286727,0" id="Line-Copy-6" stroke-width="10"></path>
+                        <path d="M0.213209685,36.215463 L36.4286727,0" id="Line-Copy-7" stroke-width="11"></path>
+                    </g>
+                    <g id="Group-3-Copy-2" transform="translate(47.500000, 22.000000) scale(-1, -1) translate(-47.500000, -22.000000) translate(27.000000, 4.000000)" stroke="#FFFFFF" stroke-linecap="square">
+                        <path d="M5.205573,35.2230997 L40.4286727,0" id="Line-Copy-6" stroke-width="10"></path>
+                        <path d="M0.713693191,35.7149795 L36.4286727,0" id="Line-Copy-7" stroke-width="11"></path>
+                    </g>
+                    <g id="Group-8" transform="translate(12.000000, 3.000000)" stroke="#FFFFFF" stroke-linecap="square">
+                        <path d="M0.712888419,28.6447165 L28.8931388,0.464466094" id="Line-Copy-6" stroke-width="10" transform="translate(14.500000, 14.964466) scale(-1, -1) translate(-14.500000, -14.964466) "></path>
+                        <path d="M0.186995292,32.2416774 L30.4286727,2" id="Line-Copy-7" stroke-width="11" transform="translate(15.500000, 17.500000) scale(-1, -1) translate(-15.500000, -17.500000) "></path>
+                    </g>
+                    <g id="Group-8-Copy-2" transform="translate(8.000000, 7.000000)" stroke="#FFFFFF" stroke-width="10" stroke-linecap="square">
+                        <path d="M0.712888419,28.6447165 L28.8931388,0.464466094" id="Line-Copy-6" transform="translate(14.500000, 14.964466) scale(-1, -1) translate(-14.500000, -14.964466) "></path>
+                    </g>
+                    <path d="M5.21347537,16.1441295 L13.8110081,7.54659682" id="Line-Copy-6" stroke="#FFFFFF" stroke-width="10" stroke-linecap="square" transform="translate(9.500000, 11.964466) scale(-1, -1) translate(-9.500000, -11.964466) "></path>
+                    <path d="M4.2009141,21.2277586 L20.7157273,4.71294541" id="Line-Copy-7" stroke="#FFFFFF" stroke-width="11" stroke-linecap="square" transform="translate(12.500000, 13.000000) scale(-1, -1) translate(-12.500000, -13.000000) "></path>
+                    <polygon id="Triangle" fill="#FFFFFF" transform="translate(120.497795, 36.286230) scale(-1, -1) rotate(-46.000000) translate(-120.497795, -36.286230) " points="120.497795 32.3284035 127.314052 40.2440573 113.681537 40.2440573"></polygon>
+                    <polygon id="Triangle-2" fill="#FFFFFF" transform="translate(3.780221, 5.780221) rotate(72.000000) translate(-3.780221, -5.780221) " points="3.78022053 2.78022053 6.78022053 8.78022053 0.780220532 8.78022053"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

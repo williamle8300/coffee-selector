@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="177px" height="185px" viewBox="0 0 177 185" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44 (41411) - http://www.bohemiancoding.com/sketch -->
+    <title>cafe-au-lait</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cafe-au-lait" transform="translate(5.000000, 4.000000)">
+            <g id="Cup" stroke-linecap="square" stroke="#FFFFFF">
+                <g>
+                    <path d="M31.5,175.5 L136,175.5" id="Line-Copy-3" stroke-width="10"></path>
+                    <path d="M0.5,1.5 L167,1.5" id="Line-Copy-4" stroke-width="10"></path>
+                    <path d="M1,10 L30.0221508,174.458854" id="Line-Copy-2" stroke-width="10"></path>
+                    <path d="M137,10 L166.022151,174.458854" id="Line-Copy-5" stroke-width="10" transform="translate(151.511075, 92.229427) scale(-1, 1) translate(-151.511075, -92.229427) "></path>
+                </g>
+            </g>
+            <polygon id="Rectangle-5-Copy-6" fill="#FFFFFF" opacity="0.5" points="14.9250426 104 150.129645 104 135.982904 176 28.7951691 176"></polygon>
+            <g id="CafeAuLait" transform="translate(7.000000, 33.000000)" fill="#FFFFFF">
+                <polygon id="Rectangle-7" points="0.886651785 7 149.15751 8.22489087 141.38902 68 11.1485091 68"></polygon>
+                <path d="M1.17034581,9.61288815 C-1.23827067,3.60771064 4.12172012,0.625676867 17.2503182,0.666786812 C36.9432152,0.72845173 46.7198697,5.51600274 56.3910699,5.98651644 C66.0622701,6.45703013 99.9617307,0.609357279 118.302043,0.666786812 C130.528919,0.705073167 141.922734,3.31261502 152.48349,8.48941237 L1.17034581,9.61288815 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
