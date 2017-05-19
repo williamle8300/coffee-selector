@@ -1,3 +1,5 @@
+import PublicPath from './public-path'
+console.log(1, PublicPath)
 import AudioTone from '../public/tone.mp3'
 import IconCoffee from '../public/icons/coffee.svg'
 import IconDoppio from '../public/icons/doppio.svg'
